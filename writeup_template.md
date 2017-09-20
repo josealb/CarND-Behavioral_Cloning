@@ -89,7 +89,7 @@ I also used Nvidia's suggested technique of adding additional cameras on the sid
 
 One silly mistake that harmed my model's performance was training to an incorrect colorspace. Because I was using openCV for loading the training data, the output color format was BGR, while the simulator uses mpimg and an RGB color format. 
 This lead to my model engaging in weird behavior like avoiding shadows. You can watch a video of this behavior here:  
-[![image1]](https://www.youtube.com/edit?o=U&video_id=WsGICYafbP8)
+[![image1]](https://www.youtube.com/watch?v=WsGICYafbP8)
 Once I corrected the error the model's performance improved dramatically.](
 
 
@@ -129,4 +129,6 @@ Finally I also ran several laps on the second track. Some keeping the lane and s
 I did the recording at low speed on the second track to be more precise. Since the vehicle dynamics don't make much of a difference up to 20mph, it was possible for the network to drive faster than the training data was recorded at.
 
 Here are the resulting videos for track 1 and track 2
+
+[![image2]](https://www.youtube.com/watch?v=IssoLpW3kh0) [![image3]](https://www.youtube.com/watch?v=ayG4ItZhvhw)
 
