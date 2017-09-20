@@ -97,28 +97,28 @@ Once I corrected the error the model's performance improved dramatically.](
 
 The final model architecture (training.ipynb lines 102-123) consisted of a convolution neural network with the following layers and layer sizes ...
 
-*model.add(Conv2D(34,5,5,subsample=(2,2), activation="elu"))
-*model.add(BatchNormalization())
-*model.add(Convolution2D(46,5,5,subsample=(2,2), activation="elu"))
-*model.add(BatchNormalization())
-*model.add(Convolution2D(58,5,5,subsample=(2,2), activation="elu"))
-*model.add(BatchNormalization())
-*model.add(Convolution2D(74,3,3, activation="elu"))
-*model.add(BatchNormalization())
-*model.add(Convolution2D(74,3,3, activation="elu"))
-*model.add(BatchNormalization())
-*model.add(Dropout(0.5))
-*model.add(Flatten())
-*model.add(Dense(1164))
-*model.add(BatchNormalization())
-*model.add(Dense(200))
-*model.add(BatchNormalization())
-*model.add(Dense(100))
-*model.add(BatchNormalization())
-*model.add(Dense(20))
-*model.add(BatchNormalization())
-*model.add(BatchNormalization())
-*model.add(Dense(1))
+* model.add(Conv2D(34,5,5,subsample=(2,2), activation="elu"))
+* model.add(BatchNormalization())
+* model.add(Convolution2D(46,5,5,subsample=(2,2), activation="elu"))
+* model.add(BatchNormalization())
+* model.add(Convolution2D(58,5,5,subsample=(2,2), activation="elu"))
+* model.add(BatchNormalization())
+* model.add(Convolution2D(74,3,3, activation="elu"))
+* model.add(BatchNormalization())
+* model.add(Convolution2D(74,3,3, activation="elu"))
+* model.add(BatchNormalization())
+* model.add(Dropout(0.5))
+* model.add(Flatten())
+* model.add(Dense(1164))
+* model.add(BatchNormalization())
+* model.add(Dense(200))
+* model.add(BatchNormalization())
+* model.add(Dense(100))
+* model.add(BatchNormalization())
+* model.add(Dense(20))
+* model.add(BatchNormalization())
+* model.add(BatchNormalization())
+* model.add(Dense(1))
 
 
 #### 3. Creation of the Training Set & Training Process
@@ -130,5 +130,6 @@ I did the recording at low speed on the second track to be more precise. Since t
 
 Here are the resulting videos for track 1 and track 2
 
-[![image2]](https://www.youtube.com/watch?v=IssoLpW3kh0) [![image3]](https://www.youtube.com/watch?v=ayG4ItZhvhw)
+[![image2]](https://www.youtube.com/watch?v=IssoLpW3kh0)  
+[![image3]](https://www.youtube.com/watch?v=ayG4ItZhvhw)
 
