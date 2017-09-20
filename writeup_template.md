@@ -88,10 +88,9 @@ I left the model runs over many epochs and used the checkpoint functionality to 
 I also used Nvidia's suggested technique of adding additional cameras on the sides, to train the model to recover from bad positions. The solution is not perfect and if the correction factor is not correct the model would oscillate in the lane. 
 
 One silly mistake that harmed my model's performance was training to an incorrect colorspace. Because I was using openCV for loading the training data, the output color format was BGR, while the simulator uses mpimg and an RGB color format. 
-This lead to my model engaging in weird behavior like avoiding shadows. You can watch a video of this behavior here: 
-![image1]
-[https://www.youtube.com/edit?o=U&video_id=WsGICYafbP8](https://www.youtube.com/edit?o=U&video_id=WsGICYafbP8)
-Once I corrected the error the model's performance improved dramatically.
+This lead to my model engaging in weird behavior like avoiding shadows. You can watch a video of this behavior here:  
+[![image1]](https://www.youtube.com/edit?o=U&video_id=WsGICYafbP8)
+Once I corrected the error the model's performance improved dramatically.](
 
 
 #### 2. Final Model Architecture
